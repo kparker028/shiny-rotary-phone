@@ -1,7 +1,11 @@
 .feature-list {
 	list-style: square;
+	margin-left: 16px;
+	margin-right: 16px;
+	color: #1c1c1c;
 }
 
 .feature {
 	font-size: 1.2em;
+	padding: 8px 0;
 }

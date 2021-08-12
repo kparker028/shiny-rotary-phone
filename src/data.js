@@ -5,6 +5,8 @@ export const boxes = [
 		features: [
 			"large box of toys for your dog/dogs",
 			"One deluxe treat per box",
+			"Free Box Tracking",
+			"Free Monthly Catalog ",
 		],
 		price: "$15 Per Month",
 	},

@@ -1,3 +1,6 @@
 .duration {
 	font-size: 1.5em;
+	line-height: 0;
+	font-weight: 500;
+	color: #6a6868;
 }
