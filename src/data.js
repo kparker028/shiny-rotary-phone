@@ -6,7 +6,7 @@ export const boxes = [
 			"large box of toys for your dog/dogs",
 			"One deluxe treat per box",
 		],
-		price: "$15",
+		price: "$15 Per Month",
 	},
 	{
 		status: "Premier",

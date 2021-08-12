@@ -7,9 +7,19 @@ function App() {
 	return (
 		<div className='App'>
 			<Navbar />
-			{boxes.map((box, index) => (
-				<Card key={index} product={box} />
-			))}
+			<div
+				className='card-grid'
+				style={{
+					display: "grid",
+					gridTemplateColumns: "1fr 1fr 1fr",
+					width: "80%",
+					margin: "0 auto",
+				}}
+			>
+				{boxes.map((box, index) => {
+					return <Card key={index} product={box} />;
+				})}
+			</div>
 		</div>
 	);
 }
