@@ -7,9 +7,9 @@ import { Price } from "../price/Price";
 import { Register } from "../register/Register";
 
 export const Card = ({ product }) => {
-	const [level, setLevel] = useState(0);
+	const [level, setLevel] = useState(false);
 
-	const getSubscription = (product) => {
+	const openForm = (product) => {
 		setLevel(product);
 	};
 	return (
@@ -21,14 +21,11 @@ export const Card = ({ product }) => {
 			<Features features={product.features} />
 			<div className='bottom'>
 				<Price cost={product.price} />
-				<button
-					onClick={() => getSubscription(product)}
-					className='subscribe-button'
-				>
+				<button className='subscribe-button' onClick={() => openForm(product)}>
 					Subscribe Now
 				</button>
 			</div>
-			{level === product && <Register product={product} />}
+			{level === product && <Register product={product} closeForm={openForm} />}
 		</div>
 	);
 };
