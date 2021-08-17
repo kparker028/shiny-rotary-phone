@@ -18,9 +18,11 @@ export const Card = ({ product }) => {
 				<ProductTitle title={product.status} />
 				<Duration duration={product.duration} />
 			</div>
-			<Features features={product.features} />
+			<div className='middle'>
+				<Features features={product.features} />
+				<Price className='price' cost={product.price} />
+			</div>
 			<div className='bottom'>
-				<Price cost={product.price} />
 				<button className='subscribe-button' onClick={() => openForm(product)}>
 					Subscribe Now
 				</button>

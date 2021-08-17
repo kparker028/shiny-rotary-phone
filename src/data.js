@@ -29,7 +29,7 @@ export const boxes = [
 			"three deluxe treats every month",
 			"Deluxe Pet World collar w/engraving",
 			"Two Large mystery gifts for you and your pet",
-			"15% discount on all items at PetWorld.com",
+			"15% discount on all items",
 		],
 		price: "One Time Fee of $120",
 	},
