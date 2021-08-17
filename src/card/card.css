@@ -9,6 +9,7 @@
 	font-family: "Poppins", sans-serif;
 	margin: auto;
 	box-shadow: 0px 4px 8px 0px #bdbdbd;
+	cursor: pointer;
 }
 .top {
 	text-align: center;
@@ -23,6 +24,7 @@
 	background-color: #08e6ff;
 	color: #fff;
 	box-shadow: 0px 4px 8px 0px #07d1e8;
+	cursor: pointer;
 }
 
 .bottom {

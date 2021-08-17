@@ -23,7 +23,14 @@ export const Register = ({ product, closeForm }) => {
 						data-aos-anchor-placement='top-center'
 						onClick={() => closeForm(!product)}
 					>
-						<AiIcons.AiOutlineClose />
+						<AiIcons.AiOutlineClose
+							style={{
+								height: "25px",
+								width: "25px",
+								marginLeft: "85%",
+								paddingTop: "8px",
+							}}
+						/>
 					</div>
 					<h1 className='selected-package'>
 						You've Selected the {product.status} Package

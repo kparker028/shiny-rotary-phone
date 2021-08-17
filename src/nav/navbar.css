@@ -1,5 +1,52 @@
 .nav-container {
 	display: flex;
-	margin: 16px, 24px, 32px, 24px;
+	justify-content: space-between;
 	width: 100%;
+	height: 100px;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 32px;
+	position: relative;
+}
+.menu-options {
+	margin-left: 32px;
+	height: 100%;
+	margin-top: 32px;
+}
+
+.menu-options span:hover {
+	border-bottom: 2px solid #21cfdb;
+	transition: border-bottom 0.5s;
+}
+
+.home {
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 1.4em;
+	cursor: pointer;
+}
+.about {
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 1.4em;
+	cursor: pointer;
+}
+
+.catalog {
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 1.4em;
+	cursor: pointer;
+}
+
+.branding {
+	margin-right: 32px;
+	margin-top: 24px;
+	display: flex;
+	height: 100%;
+}
+
+.company {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
 }
